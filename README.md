@@ -1,23 +1,5 @@
 # 프로젝트 구조
-
-lib/
-
-├── main.dart      # 앱의 진입점 (runApp, MaterialApp 설정)
-│
-├── core/           # 앱 전반에 걸쳐 사용되는 공통 기능
-│   ├── error/      # 에러 처리 관련 클래스
-│   └── router/     # 라우팅 설정 (go_router 설정)
-│
-├── data/           # 데이터 계층
-│   ├── models/     # API나 DB의 데이터를 표현하는 모델 클래스
-│   └── repositories/  # repository 구현체
-│
-├── domain/         # 비즈니스 로직 계층
-│   ├── entities/   # 비즈니스 객체 정의
-│   └── repositories/  # repository 인터페이스 정의
-│
-└── presentation/   # UI 계층
-    └── views/      # 화면 구현 (위젯)
+![mermaid-diagram-2025-01-12-143526](https://github.com/user-attachments/assets/d53e2361-b35e-43d6-986f-75bb71447afb)
 
 # 각 계층의 주요 역할
 
